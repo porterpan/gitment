@@ -3421,7 +3421,7 @@ var Gitment = function () {
 
       this.state.user.isLoggingIn = true;
       //_utils.http.post('https://gh-oauth.imsun.net', {
-      _utils.http.post('https://cors.wenjunjiang.win/?remoteUrl=https://github.com/login/oauth/access_token', {
+      _utils.http.post('https://gitment-porter.herokuapp.com/', {
       //_utils.http.post('https://bak.smalbox.club', {
       //_utils.http.post('https://cors.wenjunjiang.win', {
         code: code,
